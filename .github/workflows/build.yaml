@@ -24,8 +24,6 @@ jobs:
       
       - name: Set up docker-compose
         uses: docker/setup-qemu-action@v2
-        with:
-          version: latest 
 
       - name: check docker compose version
         run: docker-compose --version
