@@ -1,5 +1,6 @@
 import express from "express";
 import {client} from "./db";
+
 export const app = express();
 app.use(express.json());
 app.post("/sum",async (req, res) => {
