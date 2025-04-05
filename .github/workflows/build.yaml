@@ -19,8 +19,6 @@ jobs:
       
       - name: Use docker 
         uses: docker/setup-buildx-action@v2
-        with:
-          buildkitd-flavor: moby
       
       - name: Set up docker-compose
         uses: docker/setup-qemu-action@v2
