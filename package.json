@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "integration:test":".\\src\\scripts\\integration_test.sh"
+    "integration:test":"./src/scripts/integration_test.sh"
   },
   "keywords": [],
   "author": "",
